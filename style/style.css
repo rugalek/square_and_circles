@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+  height: 1400px;
+  background-color: blueviolet;
+}
+.figure {
+  width: 100%;
+  height: 100%;
+}
+.figure__round-topleft {
+  position: absolute;
+  left: 12.5%;
+  top: 12.5%;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  background-color: #ed220b;
+}
+.figure__round-topright {
+  position: absolute;
+  right: 12.5%;
+  top: 12.5%;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  background-color: #ed220b;
+}
+.figure__round-bottomleft {
+  position: absolute;
+  left: 12.5%;
+  top: 62.5%;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  background-color: #ed220b;
+}
+.figure__round-bottomright {
+  position: absolute;
+  right: 12.5%;
+  top: 62.5%;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  background-color: #ed220b;
+}
+.figure__square {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: #00a1ff;
+}
+.figure__roundsquare {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  width: 30%;
+  height: 30%;
+  border-radius: 20%;
+  background-color: #f8ba00;
+}
+
+.click-topleft:hover {
+  z-index: 1;
+  background-color: cyan;
+}
+.click-topright:hover {
+  z-index: 1;
+  background-color: magenta;
+}
+.click-bottomleft:hover {
+  z-index: 1;
+  background-color: yellow;
+}
+.click-bottomright:hover {
+  z-index: 1;
+  background-color: black;
+}
+.click-square:hover {
+  z-index: 1;
+  background-color: greenyellow;
+}
